@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Exercício aula 7</title>
+
+        <!-- CSS do site-->
+        <link rel="stylesheet" type="text/css" href="grid-style.css">
+        <link rel="stylesheet" type="text/css" href="index-style.css">
+        <!-- Fim -->
+
+        <!-- Icones e fonts importados do google-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Lobster|Roboto&display=swap" rel="stylesheet">
+        <!-- Fim --> 
+    </head>
+    <body>
+        <div class="mainPage">
+            <div class="header noselect">
+                <h1 class="pageTitle">Sitebook</h1>
+                <a id="home">Home</a>
+                <a id="about">Sobre</a>
+                <a id="exit">Sair</a>
+                <form class="searchContainer">
+                    <input type="text" placeholder="Buscar..." name="search">
+                    <button type="submit" title="Buscar"><i class="material-icons">search</i></button>
+                </form>
+            </div>
+            <div class="side">
+                <ul class="sideOptionsList noselect">
+                    <li class="sideList">
+                        <a class="sideOptions"><i class="material-icons">person</i>Perfil</a>
+                    </li>
+                    <li class="sideList">
+                        <a class="sideOptions"><i class="material-icons">book</i>Posts</a>
+                    </li>
+                    <li class="sideList">
+                        <a class="sideOptions"><i class="material-icons">bookmarks</i>Grupos</a>
+                    </li>
+                    <li class="sideList">
+                        <a class="sideOptions"><i class="material-icons">bookmark</i>Items salvos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contentContainer">
+                <div class="content">
+                    <div class="post">
+                        <label class="postLabel" for="comment">Conte-nos uma história:</label>
+                        <textarea class="postArea" name="comment" rows="15" cols="45">
+                            Era uma noite escura...
+                        </textarea>
+                        <ul>
+                            <li>
+                                <button type="submit" title="Enviar"><i class="material-icons">done</i></button>
+                            </li>
+                            <li>
+                                <button type="submit" title="Descartar post"><i class="material-icons">delete</i></button>
+                            </li>
+                            <li>
+                                <button type="submit" title="Postar como importante"><i class="material-icons">grade</i></button>
+                            </li>
+                            <li>
+                                <button type="submit" title="Adicionar arquivo"><i class="material-icons">note_add</i></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer noselect">
+                <p class="copyright">
+                    Feito por: Juan Cardoso da Silva
+                </p>
+                <p style="margin: 0px;">
+                    &#169;2020
+                </p>
+            </div>
+        </div>
+
+        <!-- Coloque scripts aqui-->
+        <script scr="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+        <!-- Fim scripts-->
+    </body>
+</html>

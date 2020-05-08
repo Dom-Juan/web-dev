@@ -18,6 +18,16 @@
     box-shadow: 2px 2px 2px 2px rgb(252, 93, 93);
     border: 0.8px rgb(182, 1, 1);
 
-    transition: right 3s ease-in-out;
+    transition: right 3s ease-in;
     text-align: center;
+
+    -webkit-transform: translateX(40px); 
+    -moz-transform: translateX(40px); 
+    -ms-transform: translateX(40px); 
+    -o-transform: translateX(40px); 
+    transform: translateX(40px);
+
+    -webkit-transition: all 0.4s; 
+    -moz-transition: all 0.4s; 
+    transition: all 0.4s;
 }

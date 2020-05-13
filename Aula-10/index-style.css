@@ -1,0 +1,171 @@
+
+.header {
+    display: flex;
+    
+    background-color: rgb(104, 2, 104);
+    border: 0.8px solid rgb(88, 9, 88);
+    border-radius: 3px;
+    border: 0px;
+    box-shadow: 0.9px 0.9px 1.2px rgb(75, 2, 75);
+}
+
+.side{
+    background-color: #dfdfdf;
+}
+
+.contentContainer{
+    background-color: #fafafa;
+    /*background-color: #cdcdcd;*/
+}
+
+.footer{
+    background-color: rgb(104, 2, 104);
+}
+
+.pageTitle{
+    margin-top: 8px;
+    margin-right: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Lobster', cursive;
+    color: #e4e3e3;
+}
+
+#home{
+    margin-top: 8px;
+    margin-left: 65px;
+    margin-right: 15px;
+    font-size: 36px;
+    font-family: 'Amatic SC', cursive;
+    color: #e4e3e3;
+}
+
+#home:hover{
+    cursor: pointer;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#about{
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 15px;
+    font-size: 36px;
+    font-family: 'Amatic SC', cursive;
+    color: #e4e3e3;
+}
+
+#about:hover{
+    cursor: pointer;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#exit{
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 15px;
+    font-size: 36px;   
+    font-family: 'Amatic SC', cursive;
+    color: #e4e3e3;     
+}
+
+#exit:hover{
+    cursor: pointer;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;     
+}
+
+.sideOptionsList {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 42px 15px 15px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sideList{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sideOptions{
+
+    text-align: center;
+}
+
+.sideList:hover {
+    width: 105px;
+    border: 0.8px solid #888888;
+    border-radius: 1px;
+    background-color: #e4e3e3;
+    box-shadow: 0.9px 0.9px 1.2px grey;
+}
+
+.footer{
+    text-align: center;
+    color: #e4e3e3;
+}
+
+.copyright{
+    margin: 0px;
+    font-size: 23px;
+    font-family: 'Lobster', cursive;
+    text-decoration: underline
+}
+
+.content{
+    display: flex;
+}
+
+.post{
+    display: flex;
+    overflow-y: auto;
+}
+
+.post > ul {
+    list-style-type: none;
+    margin-top: 45px;
+}
+
+.post > ul > li > button{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: 0.8px solid #888888;
+    border-radius: 3px;
+    border: 0px;
+    
+    background: #ddd;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.postLabel{
+    display: block;
+    margin-right: 10px;
+}
+
+.postBox{
+    margin-top: 35px;
+    margin-left: 235px;
+    margin-right: 235px;
+    margin-bottom: 35px;
+
+    padding: 10px;
+    line-height: 1.5;
+
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+/* No select pego do github, permite nao selecionar certas partes do site, quando o CSS eh usado */
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}

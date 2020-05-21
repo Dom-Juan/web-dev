@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet"> 
     <title>Aula 11</title>
 </head>
     <body>
-        <div>
-            <h1 class="header">Exercício 11</h1>
-            <form class="formJogo">
-                <input id="btn" class="inputJogo" text="text"></input>
-                <button class="btnJogo" onclick="oJogo();" type="button">Jogar!</button>
-                <h3>Teus resultados:</h3>
-                <p id="vitoriaContainer">
-                    Vitorias: <p id="vitorias"></p>
-                </p>
-                <p id="derrotaContainer">
-                    Derrotas: <p id="derrotas"></p>
-                </p>
-                <p id="empatesContainer">
-                    Empates: <p id="empates"></p>
-                </p>
+        <div class="main">
+            <div class="containerPlay">
+                <h1 class="header">Exercício 11</h1>
+                <p>Digite entradas válidas apenas( pedra, papel, tesoura).</p>
+                <form class="formJogo">
+                    <input id="btn" class="inputJogo" text="text"></input>
+                    </br>
+                    </br>
+                    <button class="btnJogo" onclick="oJogo();" type="button">Jogar!</button>
+                    <h3>Teus resultados:</h3>
+                    <p id="vitoriaContainer">
+                        Vitorias: <p id="vitorias"></p>
+                    </p>
+                    <p id="derrotaContainer">
+                        Derrotas: <p id="derrotas"></p>
+                    </p>
+                    <p id="empatesContainer">
+                        Empates: <p id="empates"></p>
+                    </p>
             </form>
-            <ul id="resultado-jogadas" class="lista">
-                <li><div class="playHeader">Player -- Bot</div></li>
+            </div>
+            <div class="listaContainer">
+            <h2>Histórico</h2>
+                <ul id="resultado-jogadas">
+                    <li><div class="playHeader">Player || Bot</div></li>
 
-            </ul>
+                </ul>
+            </div>
         </div>
     </body>
     <script src="scripts.js"></script>

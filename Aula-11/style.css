@@ -1,4 +1,85 @@
 html, body {
     width: 100%;
     height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+li {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+input,
+label {
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+.main{
+    display: flex;
+    margin: 0 auto;
+    left: 35vw;
+    position: absolute;
+}
+
+.inputJogo{
+    width: 250px;
+    padding: 0 15px;
+    outline: none;
+
+    border: 0;
+    background: transparent;
+    box-shadow: 1px black;
+    border-bottom: 2px solid #9e9e9e;
+    box-sizing: border-box;
+
+    transition: .2s ease-in-out;
+}
+
+.inputJogo:focus{
+    border-bottom: 2px solid #26a69a;
+}
+
+.btnJogo{
+    width: auto;
+    margin-left: 30%;
+
+    background-color: #26a69a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.btnJogo:hover{
+    color: #FAFAFA;
+
+}
+
+.listaContainer{
+    width: 170px;
+    height: auto;
+    margin-left: 50px;
+
+    /*
+    background-color: azure;
+    border-radius: 25px;
+    box-shadow: 1.2px 0.8px 0.8px 0.8px #888888;
+    */
+}
+
+.playHeader .playsList{
+    margin-right: 0;
+    margin-left: 0;
 }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 12</title>
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="main" class="main">
+        <div class="wrapper">
+            <ul class="homeList">
+                <li><a id="home" href="#">Home</a></li>
+                <li><a id="product" href="#">Product</a></li>
+                <li><a id="about"href="#">About</a></li>
+                <li><a id="contact" href="#">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="mobileWrapper">
+            <span class="slide">
+                <a href="javascript:void(0);" class="icon" onclick="abrirSlideMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </span>
+        </div>
+            
+        <div id="mobile-nav" class="nav">
+            <a onclick="fecharSlideMenu()"><i class="fa fa-times close"></i></a>
+            <a id="home" href="#">Home</a>
+            <a id="product" href="#">Product</a>
+            <a id="about"href="#">About</a>
+            <a id="contact" href="#">Contact</a>
+        </div>
+
+    </div>
+    <script src="hamburger.js"></script>
+</body>
+</html>

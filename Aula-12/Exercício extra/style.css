@@ -1,0 +1,65 @@
+html, body{
+    width: 100%;
+    padding: 0;
+}
+
+.divLegal{
+    width: 100px;
+    height: 100px;
+    margin-left: 45%;
+    margin-top: 10%;
+    background-color: #c2c2c2;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 95px;
+    cursor: pointer;
+}
+
+.spinner {
+
+    animation-name: spin;
+    animation-duration: 2700ms;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+
+    0% {
+        width: 100px;
+        height: 100px;
+        background-color: #fafafa;
+    }
+
+    25% {
+        width: 200px;
+        height: 200px;
+        background-color: #6e6464;
+    }
+
+    50% {
+        width: 300px;
+        height: 300px;
+        background-color: #504f4f;
+    }
+
+    100% {
+        width: 100px;
+        height: 100px;
+        background-color: #c2c2c2;
+    }
+}

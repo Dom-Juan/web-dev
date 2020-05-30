@@ -1,0 +1,60 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    color: #fafafa;
+    background: linear-gradient(to top left, #4A148C, #C51162);
+    background-repeat: cover;
+}
+
+.mainContainer{
+    margin-top: 2.5%;
+}
+
+.mainContainer > .profileContainer {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.mainContainer > .profileContainer > .profile{
+    display: flex;
+    margin-left: 15vw;
+}
+
+.mainContainer > .profileContainer > .profilePic{
+    display: flex;
+    margin-left: 15vw;
+}
+
+.mainContainer > .profileContainer > .profilePic > img{
+    width: 180px;
+    height: 200px;
+    background-image: url('./profile.jpg');
+    background-repeat: no-repeat;
+    border-radius: 65%;
+    margin-left: 5%;
+}
+
+.mainContainer > h3{
+    display: flex;
+    margin-left: 15vw;
+}
+
+.mainContainer > ul > li {
+    list-style-type: none;
+}
+
+.mainContainer > .sobre{
+    display: flex;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.mainContainer > ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+}

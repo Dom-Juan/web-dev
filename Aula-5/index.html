@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Inclusão do CSS abaixo -->
+        <link type="text/css" href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- FIM -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <title>Aula 5</title>
+    </head>
+    <body>
+        <div class="formContainer">
+            <h1>Se inscreva em Anibook</h1>
+            <form class="" onSubmit="">
+                Primeiro nome:<br>
+                <input class="inputCad" type="text" name="firstname"><br>
+                Sobrenome nome:<br>
+                <input class="inputCad" type="text" name="lastname"><br>
+                Data de nascimento:<br>
+                <input class="inputCad" type="date" name="date"><br>
+                Cidade:<br>
+                <input class="inputCad" type="text" name="city"><br>
+                País:<br>
+                <input class="inputCad" type="text" name="country"><br>
+                Email:<br>
+                <input class="inputCad" type="email" name="email"><br>
+                <br>
+                Senha:<br>
+                <input class="inputCad" type="password" name="password"><br>
+                <br>
+                Uma breve descrição de você:<br>
+                <input class="inputCad" type="text" name="desc"><br>
+                <br>
+                <button class="btnCad" type="text">Cadastrar</button>
+            </form>
+        </div>
+        
+        <script>
+            function formSubmit(event) {
+                event.preventDefault();
+            }
+
+            console.log("Creditos a Whisper Natural pela imagem.");
+        </script>
+    </body>
+</html>

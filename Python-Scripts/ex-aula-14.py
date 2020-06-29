@@ -5,7 +5,7 @@ def mediaGeometrica(numero, listaPar, terminou):
         a = 1
         for i in range(len(listaPar)):
             a = a * listaPar[i]
-        a = (a ** (-len(listaPar)))
+        a = (a ** (1/len(listaPar)))
         return a
     else:
         listaPar.append(numero)
